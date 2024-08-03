@@ -592,6 +592,7 @@ section {
   }
 /* Sobre Mim Section
 --------------------------------*/
+/* Estilo geral para o container */
 #about {
   background: #fff;
   padding: 60px 0;
@@ -631,6 +632,12 @@ section {
   margin-top: 12%;
 }
 
+.nav-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .nav-pills .nav-link {
   background-color: #049440;
   color: #fff;
@@ -650,7 +657,7 @@ section {
   color: #fff;
 }
 
-/* espaço entre os botões */
+/* Espaço entre os botões */
 .nav-pills .nav-item {
   margin-right: 5px;
 }
@@ -682,6 +689,58 @@ section {
   transition: opacity 0.3s ease-in-out;
 }
 
+/* Estilos para as abas */
+.tab-content {
+  padding: 15px;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.fade {
+  transition: opacity 0.15s linear;
+}
+
+.tab-pane.show {
+  display: block;
+}
+
+.tab-pane.show.active {
+  display: block;
+}
+
+/* Estilos adicionais para ícones e descrições */
+.d-flex.align-items-center {
+  align-items: center;
+}
+
+.d-flex.align-items-center i {
+  font-size: 1.25rem;
+  color: #049440;
+  margin-right: 2px;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1d1d1d;
+}
+
+@media (max-width: 768px) {
+  .nav-pills {
+    flex-direction: column;
+  }
+
+  .nav-pills .nav-item {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
 
 
 /* Área de atuação Section
@@ -791,7 +850,7 @@ section {
 
 
 #why-us .counters {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #why-us .counters span {
