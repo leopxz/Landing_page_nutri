@@ -15,14 +15,14 @@ CSS: Estilização das páginas.
 JavaScript: Interatividade e validação de formulários.
 PHP: Backend para manipulação de formulários.
 
-## Estrutura do Projeto
-Landing_page_nutri/
-├── assets/
-│   └── (img, css, js, scss, vendor)
-├── forms/
-│   └── (scripts PHP para manipulação de formulários)
-├── blog.html
-├── index.html
+## Estrutura do Projeto<br>
+Landing_page_nutri/<br>
+├── assets/<br>
+│   └── (img, css, js, scss, vendor)<br>
+├── forms/<br>
+│   └── (scripts PHP para manipulação de formulários)<br>
+├── blog.html<br>
+├── index.html<br>
 
 ## Configuração
 
@@ -35,6 +35,5 @@ Navegue para o diretório do projeto:
 
     cd Landing_page_nutri
 
-``
 Abra o index.html no seu navegador para visualizar a página de destino.
 
