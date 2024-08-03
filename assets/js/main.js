@@ -1,11 +1,3 @@
-/**
-* Template Name: NewBiz
-* Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 (function() {
   "use strict";
 
@@ -132,7 +124,7 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with offset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -150,7 +142,7 @@
   }, true)
 
   /**
-   * Scroll with ofset on page load with hash links in the url
+   * Scroll with offset on page load with hash links in the url
    */
   window.addEventListener('load', () => {
     if (window.location.hash) {
@@ -161,7 +153,7 @@
   });
 
   /**
-   * Porfolio isotope and filter
+   * Portfolio isotope and filter
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
@@ -249,11 +241,12 @@
    */
   new PureCounter();
 
+  /**
+   * Toggle Recipe Card
+   */
+  window.toggleRecipeNew = function(header) {
+    const card = header.closest('.recipe-card-new');
+    card.classList.toggle('active');
+  }
+
 })()
-
-/* blog */
-
-function toggleRecipeNew(header) {
-  const card = header.closest('.recipe-card-new');
-  card.classList.toggle('active');
-}
