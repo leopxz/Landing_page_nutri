@@ -2,7 +2,7 @@
 Este projeto é uma página de destino para um nutricionista, criada para exibir serviços, compartilhar conteúdo de blog e fornecer um formulário de contato para potenciais clientes.
 
 ## Demonstração
-Veja a versão online [AQUI](https://waldilenenutri.vercel.app/)
+Veja a versão online [AQUI](https://www.waldilenepaixao.com.br/)
 
 ## Funcionalidades
 
